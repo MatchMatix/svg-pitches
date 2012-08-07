@@ -1,43 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+<!-- 
+
+Copyright (c) 2012, Simon Harriyott / MatchMatix
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+   must display the following acknowledgement:
+   This product includes software developed by MatchMatix.
+4. Neither the name of MatchMatix nor the
+   names of its contributors may be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY Simon Harriyott / MatchMatix ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL Simon Harriyott / MatchMatix BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
  <g>
   <title>Pitch</title>
-  <path id="perimiter" fill="#008800" stroke="#fff" stroke-width="5"
-        d="m 0,0 l 1000,0 l 0,700 l -1000,0   z" />
+  <path id="perimiter" fill="#008800" stroke="#fff" stroke-width="5" d="m 0,0 l 1000,0 l 0,700 l -1000,0   z" />
    <line id="centre-line" y2="700" x2="500" y1="0" x1="500" stroke-width="5" stroke="#ffffff" fill="none"/>
-   <path id="penalty-box-home" fill="none" stroke="#fff" stroke-width="5"
-         d="m 0,148.5 l 165,0 l 0,403 l -165,0   z" />
-   <path id="six-yard-box-home" fill="none" stroke="#fff" stroke-width="5"
-      d="m 0,258.5 l 55,0 l 0,183 l -55,0 z" />
-
-   <path id="penalty-box-away" fill="none" stroke="#fff" stroke-width="5"
-         d="m 1000,148.5 l -165,0 l 0,403 l 165,0   z" />
-
-   <path id="six-yard-box-away" fill="none" stroke="#fff" stroke-width="5"
-     d="m 1000,258.5 l -55,0 l 0,183 l 55,0 z" />
-
-   <circle id="centre-circle" r="95" cy="350" cx="500" stroke-width="5" stroke="#ffffff" 
-           fill="none"/>
-   <circle id="centre-spot" r="1" cy="350" cx="500" stroke-width="10" stroke="#ffffff"
-           fill="none"/>
-
-   <circle id="penalty-spot-home" r="1" cy="350" cx="110" stroke-width="7" stroke="#ffffff"
-           fill="none"/>
-   <circle id="penalty-spot-away" r="1" cy="350" cx="890" stroke-width="7" stroke="#ffffff"
-           fill="none"/>
-
-   <path id="penalty-curve-home" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m165,277.5a91,91 1 0 1 0,145" />
-   <path id="penalty-curve-away" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m835,277.5a91,91 0 0 0 0,145" />
-
-   <path id="corner-home-left" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m 0,10 a 7.5,7.5 0 0 0 10,-10" />
-   <path id="corner-home-right" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m 0,690 a 7.5,7.5 0 0 1 10,10" />
-   <path id="corner-away-left" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m 1000,10 a 7.5,7.5 0 0 1 -10,-10" />
-   <path id="corner-away-right" fill="none" stroke-width="5" stroke="#ffffff"
-         d="m 1000,690 a 7.5,7.5 0 0 0 -10,10" />
-
+   <path id="penalty-box-home" fill="none" stroke="#fff" stroke-width="5" d="m 0,148.5 l 165,0 l 0,403 l -165,0   z" />
+   <path id="six-yard-box-home" fill="none" stroke="#fff" stroke-width="5" d="m 0,258.5 l 55,0 l 0,183 l -55,0 z" />
+   <path id="penalty-box-away" fill="none" stroke="#fff" stroke-width="5" d="m 1000,148.5 l -165,0 l 0,403 l 165,0   z" />
+   <path id="six-yard-box-away" fill="none" stroke="#fff" stroke-width="5" d="m 1000,258.5 l -55,0 l 0,183 l 55,0 z" />
+   <circle id="centre-circle" r="95" cy="350" cx="500" stroke-width="5" stroke="#ffffff" fill="none"/>
+   <circle id="centre-spot" r="1" cy="350" cx="500" stroke-width="10" stroke="#ffffff" fill="none"/>
+   <circle id="penalty-spot-home" r="1" cy="350" cx="110" stroke-width="7" stroke="#ffffff" fill="none"/>
+   <circle id="penalty-spot-away" r="1" cy="350" cx="890" stroke-width="7" stroke="#ffffff" fill="none"/>
+   <path id="penalty-curve-home" fill="none" stroke-width="5" stroke="#ffffff" d="m165,277.5a91,91 1 0 1 0,145" />
+   <path id="penalty-curve-away" fill="none" stroke-width="5" stroke="#ffffff" d="m835,277.5a91,91 0 0 0 0,145" />
+   <path id="corner-home-left" fill="none" stroke-width="5" stroke="#ffffff" d="m 0,10 a 7.5,7.5 0 0 0 10,-10" />
+   <path id="corner-home-right" fill="none" stroke-width="5" stroke="#ffffff" d="m 0,690 a 7.5,7.5 0 0 1 10,10" />
+   <path id="corner-away-left" fill="none" stroke-width="5" stroke="#ffffff" d="m 1000,10 a 7.5,7.5 0 0 1 -10,-10" />
+   <path id="corner-away-right" fill="none" stroke-width="5" stroke="#ffffff" d="m 1000,690 a 7.5,7.5 0 0 0 -10,10" />
  </g>
 </svg>
