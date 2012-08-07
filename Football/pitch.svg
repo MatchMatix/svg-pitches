@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Pitch</title>
+  <path id="perimiter" fill="#008800" stroke="#fff" stroke-width="5"
+        d="m 0,0 l 1000,0 l 0,700 l -1000,0   z" />
+   <line id="centre-line" y2="700" x2="500" y1="0" x1="500" stroke-width="5" stroke="#ffffff" fill="none"/>
+   <path id="penalty-box-home" fill="none" stroke="#fff" stroke-width="5"
+         d="m 0,148.5 l 165,0 l 0,403 l -165,0   z" />
+   <path id="six-yard-box-home" fill="none" stroke="#fff" stroke-width="5"
+      d="m 0,258.5 l 55,0 l 0,183 l -55,0 z" />
+
+   <path id="penalty-box-away" fill="none" stroke="#fff" stroke-width="5"
+         d="m 1000,148.5 l -165,0 l 0,403 l 165,0   z" />
+
+   <path id="six-yard-box-away" fill="none" stroke="#fff" stroke-width="5"
+     d="m 1000,258.5 l -55,0 l 0,183 l 55,0 z" />
+
+   <circle id="centre-circle" r="95" cy="350" cx="500" stroke-width="5" stroke="#ffffff" 
+           fill="none"/>
+   <circle id="centre-spot" r="1" cy="350" cx="500" stroke-width="10" stroke="#ffffff"
+           fill="none"/>
+
+   <circle id="penalty-spot-home" r="1" cy="350" cx="110" stroke-width="7" stroke="#ffffff"
+           fill="none"/>
+   <circle id="penalty-spot-away" r="1" cy="350" cx="890" stroke-width="7" stroke="#ffffff"
+           fill="none"/>
+
+   <path id="penalty-curve-home" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m165,277.5a91,91 1 0 1 0,145" />
+   <path id="penalty-curve-away" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m835,277.5a91,91 0 0 0 0,145" />
+
+   <path id="corner-home-left" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m 0,10 a 7.5,7.5 0 0 0 10,-10" />
+   <path id="corner-home-right" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m 0,690 a 7.5,7.5 0 0 1 10,10" />
+   <path id="corner-away-left" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m 1000,10 a 7.5,7.5 0 0 1 -10,-10" />
+   <path id="corner-away-right" fill="none" stroke-width="5" stroke="#ffffff"
+         d="m 1000,690 a 7.5,7.5 0 0 0 -10,10" />
+
+ </g>
+</svg>
